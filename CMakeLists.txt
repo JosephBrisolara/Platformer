@@ -17,5 +17,5 @@ target_link_libraries(gamelib PUBLIC SDL2::SDL2)
 add_executable(main main.cpp)
 target_link_libraries(main PUBLIC gamelib)
 
-add_executable(test1 test1.cpp)
-target_link_libraries(test1 PUBLIC gamelib)
+# add_executable(test1 test1.cpp)
+# target_link_libraries(test1 PUBLIC gamelib)

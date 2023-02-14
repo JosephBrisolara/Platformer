@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/josep/VScode/Platformer/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gamelib.dir/includes_CXX.rsp -g -std=c++17 -g -Wall -Wextra -o CMakeFiles\\gamelib.dir\\graphics.cpp.obj -c C:\\Users\\josep\\VScode\\Platformer\\graphics.cpp",
+  "file": "C:/Users/josep/VScode/Platformer/graphics.cpp"
+},
+{
+  "directory": "C:/Users/josep/VScode/Platformer/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gamelib.dir/includes_CXX.rsp -g -std=c++17 -g -Wall -Wextra -o CMakeFiles\\gamelib.dir\\player.cpp.obj -c C:\\Users\\josep\\VScode\\Platformer\\player.cpp",
+  "file": "C:/Users/josep/VScode/Platformer/player.cpp"
+},
+{
+  "directory": "C:/Users/josep/VScode/Platformer/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gamelib.dir/includes_CXX.rsp -g -std=c++17 -g -Wall -Wextra -o CMakeFiles\\gamelib.dir\\world.cpp.obj -c C:\\Users\\josep\\VScode\\Platformer\\world.cpp",
+  "file": "C:/Users/josep/VScode/Platformer/world.cpp"
+},
+{
+  "directory": "C:/Users/josep/VScode/Platformer/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++17 -g -Wall -Wextra -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\josep\\VScode\\Platformer\\main.cpp",
+  "file": "C:/Users/josep/VScode/Platformer/main.cpp"
+}
+]

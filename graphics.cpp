@@ -1,6 +1,6 @@
 #include "graphics.h"
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include <stdexcept>
 
@@ -12,7 +12,7 @@ Graphics::Graphics(const std::string& title, int window_width,
     if (result < 0) {
         throw std::runtime_error(SDL_GetError());
     }
-    window = SDL_CreateWindow("Title", SDL_WINDOWPOS_CENTERED,
+    window = SDL_CreateWindow(title.c_str(), SDL_WINDOWPOS_CENTERED,
                               SDL_WINDOWPOS_CENTERED, window_width,
                               window_height, 0);
     if (!window) {
